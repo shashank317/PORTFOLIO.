@@ -8,7 +8,6 @@ import RotatingText from '../components/RotatingText';
 import Dock from '../components/Dock';
 import PixelCard from '../components/PixelCard';
 import TiltedCard from '../components/TiltedCard';
-import FuzzyText from '../components/FuzzyText';
 import { CardContainer, CardBody, CardItem } from "../components/3d-card";
 import StarBorder from "../components/StarBorder";
 import ShinyText from "../components/ShinyText";
