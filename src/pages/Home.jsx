@@ -146,15 +146,12 @@ const Home = () => {
 {/* ✅ Education Section - 3D Floating Cards */}
 <ScrollFloat>
 <section id="education" className="w-full min-h-screen px-8 py-24 flex flex-col items-center justify-center bg-black/10">
-  <FuzzyText
-    baseIntensity={0.2}
-    hoverIntensity={0.8}
-    enableHover={true}
-    className="text-4xl sm:text-5xl font-bold mb-16 text-cyan-300"
-    fontSize="clamp(2rem, 4vw, 3rem)"
-  >
-    🎓 EDUCATION
-  </FuzzyText>
+   <ShinyText
+    text="EDUCATION 🎓"
+    speed={3}
+    className="text-4xl sm:text-5xl font-bold text-grey-300"
+  />
+
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
     {/* Card 1 */}
@@ -234,7 +231,14 @@ const Home = () => {
        {/* ✅ Projects Section - PixelCard Layout */}
 <ScrollFloat>
 <section id="projects" className="w-full min-h-screen px-8 py-24">
-  <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10 text-gray-800">🚀 PROJECTS</h2>
+  <div className="text-center mb-10">
+  <ShinyText
+    text="🚀 PROJECTS"
+    speed={3}
+    className="text-4xl sm:text-5xl font-bold text-grey-300"
+  />
+</div>
+
 
   <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     {/* Project 1 */}
@@ -303,7 +307,14 @@ const Home = () => {
       {/* ✅ Skills Section */}
 <ScrollFloat>
 <section id="skills" className="w-full min-h-screen px-8 py-24 flex flex-col items-center justify-center">
-  <h2 className="text-4xl sm:text-5xl font-bold mb-10 text-center">🛠 SKILLS</h2>
+  <div className="text-center mb-12">
+
+        <ShinyText
+    text="SKILLS 💻"
+    speed={3}
+    className="text-4xl sm:text-5xl font-bold text-grey-300"
+  />
+  </div>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
     <TiltedCard
       imageSrc="/python.png"
@@ -403,7 +414,14 @@ const Home = () => {
       {/* ✅ Contact Section */}
 <ScrollFloat>
 <section id="contact" className="w-full min-h-screen px-8 py-24 text-white bg-transparent">
-        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 text-white">📬 Contact Me</h2>
+  <div className="text-center mb-12">
+
+        <ShinyText
+    text="CONTACT ME ✉️"
+    speed={3}
+    className="text-4xl sm:text-5xl font-bold text-grey-300"
+  />
+  </div>
 
         <form
           className="max-w-2xl mx-auto bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 shadow-2xl space-y-6"
